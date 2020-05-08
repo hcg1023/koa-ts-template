@@ -1,0 +1,16 @@
+{
+  "restartable": "rs",
+  "ignore": ["./node_modules/*", "./public/*", "./src/logs/*"],
+  "verbose": true,
+  "execMap":{
+    "":"node"
+  },
+  "ext": "js ts",
+  "watch":[
+    "./src/**.ts"
+  ],
+  "env":{
+    "NODE_ENV": "development"
+  },
+  "legacy-watch":false
+}
