@@ -1,7 +1,7 @@
 module.exports = {
   apps: [
     {
-      name: 'koa-ts',
+      name: process.env.npm_package_name,
       script: './dist-prd/index.js',
       instances: 1,
       autorestart: true,
@@ -19,7 +19,7 @@ module.exports = {
       }
     },
     {
-      name: 'koa-ts-test',
+      name: process.env.npm_package_name + '-test',
       script: './dist-test/index.js',
       instances: 1,
       autorestart: true,
