@@ -6,6 +6,12 @@
 ### 关于环境变量
 #### 可以在ecosystem.config.js中设置test与prd的env环境变量，在nodemon.json中设置本地运行的环境变量
 #### 大部分配置目前还在config.ts下，除port端口外并无明显区分环境
+## 初始化项目
+```
+npm install
+npm run start
+```
+## 运行指令
 1. 本地运行
     ```
     npm run start
