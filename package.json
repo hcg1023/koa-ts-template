@@ -22,6 +22,7 @@
   ],
   "author": "{{name}}",
   "dependencies": {
+    "address": "^1.1.2",
     "koa": "^2.11.0",
     "koa-bodyparser": "^4.3.0",
     "koa-helmet": "^5.2.0",
@@ -29,7 +30,8 @@
     "koa-log4": "^2.3.2",
     "koa-router": "^8.0.8",
     "koa-static": "^5.0.0",
-    "koa2-cors": "^2.0.6"
+    "koa2-cors": "^2.0.6",
+    "opn": "^6.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
@@ -43,6 +45,7 @@
     "@types/koa-static": "^4.0.1",
     "@types/koa2-cors": "^2.0.1",
     "@types/node": "^13.13.5",
+    "@types/opn": "^5.5.0",
     "@typescript-eslint/eslint-plugin": "^2.31.0",
     "@typescript-eslint/parser": "^2.31.0",
     "commitizen": "^4.1.2",

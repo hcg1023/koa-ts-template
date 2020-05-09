@@ -4,6 +4,9 @@
  * Module dependencies.
  */
 import * as http from 'http'
+// @ts-ignore
+import * as opn from 'opn'
+import * as address from 'address'
 import app from './app'
 import config from './config'
 
@@ -76,9 +79,26 @@ function onError(error: { syscall: string; code: string }): void {
 /**
  * Event listener for HTTP server "listening" event.
  */
-
+let openBrower = true // 第一次运行时，默认打开浏览器
 function onListening(): void {
 	const addr = server.address()
-	const bind = typeof addr === 'string' ? 'pipe http://localhost:' + addr : 'port http://localhost:' + addr.port
-	console.log('Listening on ' + bind)
+  let host = ''
+  let ip = address.ip()
+  const hasIP = Boolean(ip)
+  if (typeof addr === 'string') {
+    host = 'http://localhost:' + addr
+    ip = 'http://' + ip + ':' + addr
+
+  } else {
+    host = 'http://localhost:' + addr.port
+    ip = 'http://' + ip + ':' + addr.port
+  }
+	console.log('Host listening on ' + host)
+  if (hasIP) {
+    console.log('Network listening on ' + ip)
+  }
+  if (openBrower) {
+    opn(host)
+    openBrower = false
+  }
 }
