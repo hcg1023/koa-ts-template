@@ -8,7 +8,7 @@
     "start:prd": "tsc --outDir dist-prd && pm2 start ecosystem.config.js --only {{name}}",
     "start:test": "tsc --outDir dist-test && pm2 start ecosystem.config.js --only {{name}}-test",
     "stop:prd": "pm2 stop ecosystem.config.js --only {{name}}",
-    "stop:test": "pm2 stop ecosystem.config.js --only {{name}}",
+    "stop:test": "pm2 stop ecosystem.config.js --only {{name}}-test",
     "commit": "git-cz",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,7 +20,7 @@
     "haochenguang",
     "hcg1023"
   ],
-  "author": "{{author}}",
+  "author": "{{name}}",
   "dependencies": {
     "koa": "^2.11.0",
     "koa-bodyparser": "^4.3.0",
