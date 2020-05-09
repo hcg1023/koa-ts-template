@@ -3,6 +3,7 @@ node_modules
 /dist
 /dist-prd
 /dist-test
+/src/logs
 
 # local env files
 .env.local
