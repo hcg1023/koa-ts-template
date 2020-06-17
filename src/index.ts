@@ -35,19 +35,19 @@ server.on('listening', onListening)
  */
 
 function normalizePort(val: string | number): string | number | false {
-	const port = typeof val === 'number' ? val : parseInt(val, 10)
+  const port = typeof val === 'number' ? val : parseInt(val, 10)
 
-	if (isNaN(port)) {
-		// named pipe
-		return val
-	}
+  if (isNaN(port)) {
+    // named pipe
+    return val
+  }
 
-	if (port >= 0) {
-		// port number
-		return port
-	}
+  if (port >= 0) {
+    // port number
+    return port
+  }
 
-	return false
+  return false
 }
 
 /**
@@ -55,50 +55,44 @@ function normalizePort(val: string | number): string | number | false {
  */
 
 function onError(error: { syscall: string; code: string }): void {
-	if (error.syscall !== 'listen') {
-		throw error
-	}
+  if (error.syscall !== 'listen') {
+    throw error
+  }
 
-	const bind = typeof port === 'string' ? 'Pipe ' + port : 'Port ' + port
+  const bind = typeof port === 'string' ? 'Pipe ' + port : 'Port ' + port
 
-	// handle specific listen errors with friendly messages
-	switch (error.code) {
-		case 'EACCES':
-			console.error(bind + ' requires elevated privileges')
-			process.exit(1)
-			break
-		case 'EADDRINUSE':
-			console.error(bind + ' is already in use')
-			process.exit(1)
-			break
-		default:
-			throw error
-	}
+  // handle specific listen errors with friendly messages
+  switch (error.code) {
+    case 'EACCES':
+      console.error(bind + ' requires elevated privileges')
+      process.exit(1)
+      break
+    case 'EADDRINUSE':
+      console.error(bind + ' is already in use')
+      process.exit(1)
+      break
+    default:
+      throw error
+  }
 }
 
 /**
  * Event listener for HTTP server "listening" event.
  */
-let openBrower = true // 第一次运行时，默认打开浏览器
 function onListening(): void {
-	const addr = server.address()
+  const addr = server.address()
   let host = ''
   let ip = address.ip()
   const hasIP = Boolean(ip)
   if (typeof addr === 'string') {
     host = 'http://localhost:' + addr
     ip = 'http://' + ip + ':' + addr
-
   } else {
     host = 'http://localhost:' + addr.port
     ip = 'http://' + ip + ':' + addr.port
   }
-	console.log('Host listening on ' + host)
+  console.log('Host listening on ' + host)
   if (hasIP) {
     console.log('Network listening on ' + ip)
-  }
-  if (openBrower) {
-    opn(host)
-    openBrower = false
   }
 }

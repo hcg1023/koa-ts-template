@@ -6,13 +6,17 @@ const resolvePath = (pathString: string): string => path.join(__dirname, pathStr
 
 export default {
   port: process.env.PROT || 3000,
-  projectRootPath: resolvePath('../'),
-  staticPath: resolvePath('../public'),
-  logPath: resolvePath('/logs/'),
-  mongoHost: 'mongodb://127.0.0.1:27017/koa-ts',
+  projectRootPath: resolvePath('../../'),
+  staticPath: resolvePath('../../public'),
+  logPath: resolvePath('../../logs/'),
+  email: '',
+  emailPass: '',
+  mongoHost: 'mongodb://127.0.0.1:27017',
+  mongoDBName: 'koa-ts',
   mongoUser: '',
   mongoPassword: '',
   JWTSecret: 'hcg1023-koa-ts',
+  tokenKey: 'hcg-token',
   corsOption: {
     origin: (ctx: Context): string => {
       return ctx.request.header.origin

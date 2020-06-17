@@ -1,0 +1,112 @@
+[2020-06-17T23:22:41.249] [INFO] response - 
+*************** response log start ***************
+
+request method: GET
+
+request host: localhost:3000
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 2020-6-17 11:22:41 ├F10: PM┤
+response status: 200
+response body: {"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"emitClose":false,"autoDestroy":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrainWriters":null,"multiAwaitDrain":false,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"_events":{},"_eventsCount":2,"path":"D:\\project\\koa-ts-template\\public\\index.html","fd":null,"flags":"r","mode":438,"end":null,"autoClose":true,"bytesRead":0,"closed":false}
+*************** response log end ***************
+
+[2020-06-17T23:22:41.307] [INFO] response - 
+*************** response log start ***************
+
+request method: GET
+
+request host: localhost:3000
+request originalUrl:  /koa-logo.png
+request client ip:  ::1
+request query:  {}
+response time: 2020-6-17 11:22:41 ├F10: PM┤
+response status: 200
+response body: {"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"emitClose":false,"autoDestroy":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrainWriters":null,"multiAwaitDrain":false,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"_events":{},"_eventsCount":2,"path":"D:\\project\\koa-ts-template\\public\\koa-logo.png","fd":null,"flags":"r","mode":438,"end":null,"autoClose":true,"bytesRead":0,"closed":false}
+*************** response log end ***************
+
+[2020-06-17T23:22:41.441] [INFO] response - 
+*************** response log start ***************
+
+request method: GET
+
+request host: localhost:3000
+request originalUrl:  /favicon.ico
+request client ip:  ::1
+request query:  {}
+response time: 2020-6-17 11:22:41 ├F10: PM┤
+response status: 404
+response body: undefined
+*************** response log end ***************
+
+[2020-06-17T23:25:36.293] [INFO] response - 
+*************** response log start ***************
+
+request method: GET
+
+request host: localhost:3000
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 2020-6-17 11:25:36 ├F10: PM┤
+response status: 200
+response body: {"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"emitClose":false,"autoDestroy":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrainWriters":null,"multiAwaitDrain":false,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"_events":{},"_eventsCount":2,"path":"D:\\project\\koa-ts-template\\public\\index.html","fd":null,"flags":"r","mode":438,"end":null,"autoClose":true,"bytesRead":0,"closed":false}
+*************** response log end ***************
+
+[2020-06-17T23:25:36.375] [INFO] response - 
+*************** response log start ***************
+
+request method: GET
+
+request host: localhost:3000
+request originalUrl:  /koa-logo.png
+request client ip:  ::1
+request query:  {}
+response time: 2020-6-17 11:25:36 ├F10: PM┤
+response status: 200
+response body: {"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"emitClose":false,"autoDestroy":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrainWriters":null,"multiAwaitDrain":false,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"_events":{},"_eventsCount":2,"path":"D:\\project\\koa-ts-template\\public\\koa-logo.png","fd":null,"flags":"r","mode":438,"end":null,"autoClose":true,"bytesRead":0,"closed":false}
+*************** response log end ***************
+
+[2020-06-17T23:25:36.523] [INFO] response - 
+*************** response log start ***************
+
+request method: GET
+
+request host: localhost:3000
+request originalUrl:  /favicon.ico
+request client ip:  ::1
+request query:  {}
+response time: 2020-6-17 11:25:36 ├F10: PM┤
+response status: 404
+response body: undefined
+*************** response log end ***************
+
+[2020-06-17T23:25:40.750] [INFO] response - 
+*************** response log start ***************
+
+request method: GET
+
+request host: localhost:3000
+request originalUrl:  /swagger
+request client ip:  ::1
+request query:  {}
+response time: 2020-6-17 11:25:40 ├F10: PM┤
+response status: 200
+response body: "\n\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Swagger UI</title>\n  <link href=\"//fonts.googleapis.com/css?family=Open+Sans:400,700|Source+Code+Pro:300,600|Titillium+Web:400,600,700\" rel=\"stylesheet\">\n  <link href=\"//cdnjs.cloudflare.com/ajax/libs/swagger-ui/3.21.0/swagger-ui.css\" rel=\"stylesheet\">\n\n  <style>\n    html\n    {\n        box-sizing: border-box;\n        overflow: -moz-scrollbars-vertical;\n        overflow-y: scroll;\n    }\n    *,\n    *:before,\n    *:after\n    {\n        box-sizing: inherit;\n    }\n    body {\n      margin:0;\n      background: #fafafa;\n    }\n\n  </style>\n</head>\n\n<body>\n  <svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" style=\"position:absolute;width:0;height:0\">\n    <defs>\n      <symbol viewBox=\"0 0 20 20\" id=\"unlocked\">\n            <path d=\"M15.8 8H14V5.6C14 2.703 12.665 1 10 1 7.334 1 6 2.703 6 5.6V6h2v-.801C8 3.754 8.797 3 10 3c1.203 0 2 .754 2 2.199V8H4c-.553 0-1 .646-1 1.199V17c0 .549.428 1.139.951 1.307l1.197.387C5.672 18.861 6.55 19 7.1 19h5.8c.549 0 1.428-.139 1.951-.307l1.196-.387c.524-.167.953-.757.953-1.306V9.199C17 8.646 16.352 8 15.8 8z\"></path>\n      </symbol>\n\n      <symbol viewBox=\"0 0 20 20\" id=\"locked\">\n        <path d=\"M15.8 8H14V5.6C14 2.703 12.665 1 10 1 7.334 1 6 2.703 6 5.6V8H4c-.553 0-1 .646-1 1.199V17c0 .549.428 1.139.951 1.307l1.197.387C5.672 18.861 6.55 19 7.1 19h5.8c.549 0 1.428-.139 1.951-.307l1.196-.387c.524-.167.953-.757.953-1.306V9.199C17 8.646 16.352 8 15.8 8zM12 8H8V5.199C8 3.754 8.797 3 10 3c1.203 0 2 .754 2 2.199V8z\"/>\n      </symbol>\n\n      <symbol viewBox=\"0 0 20 20\" id=\"close\">\n        <path d=\"M14.348 14.849c-.469.469-1.229.469-1.697 0L10 11.819l-2.651 3.029c-.469.469-1.229.469-1.697 0-.469-.469-.469-1.229 0-1.697l2.758-3.15-2.759-3.152c-.469-.469-.469-1.228 0-1.697.469-.469 1.228-.469 1.697 0L10 8.183l2.651-3.031c.469-.469 1.228-.469 1.697 0 .469.469.469 1.229 0 1.697l-2.758 3.152 2.758 3.15c.469.469.469 1.229 0 1.698z\"/>\n      </symbol>\n\n      <symbol viewBox=\"0 0 20 20\" id=\"large-arrow\">\n        <path d=\"M13.25 10L6.109 2.58c-.268-.27-.268-.707 0-.979.268-.27.701-.27.969 0l7.83 7.908c.268.271.268.709 0 .979l-7.83 7.908c-.268.271-.701.27-.969 0-.268-.269-.268-.707 0-.979L13.25 10z\"/>\n      </symbol>\n\n      <symbol viewBox=\"0 0 20 20\" id=\"large-arrow-down\">\n        <path d=\"M17.418 6.109c.272-.268.709-.268.979 0s.271.701 0 .969l-7.908 7.83c-.27.268-.707.268-.979 0l-7.908-7.83c-.27-.268-.27-.701 0-.969.271-.268.709-.268.979 0L10 13.25l7.418-7.141z\"/>\n      </symbol>\n\n\n      <symbol viewBox=\"0 0 24 24\" id=\"jump-to\">\n        <path d=\"M19 7v4H5.83l3.58-3.59L8 6l-6 6 6 6 1.41-1.41L5.83 13H21V7z\"/>\n      </symbol>\n\n      <symbol viewBox=\"0 0 24 24\" id=\"expand\">\n        <path d=\"M10 18h4v-2h-4v2zM3 6v2h18V6H3zm3 7h12v-2H6v2z\"/>\n      </symbol>\n\n    </defs>\n  </svg>\n\n  <div id=\"swagger-ui\"></div>\n  <script src=\"//cdnjs.cloudflare.com/ajax/libs/swagger-ui/3.21.0/swagger-ui-bundle.js\"></script>\n  <script src=\"//cdnjs.cloudflare.com/ajax/libs/swagger-ui/3.21.0/swagger-ui-standalone-preset.js\"></script>\n  <script>\n  window.onload = function() {\n    // Build a system\n    const ui = SwaggerUIBundle({\n      url: \"/swagger-json\",\n      dom_id: '#swagger-ui',\n      presets: [\n        SwaggerUIBundle.presets.apis,\n        SwaggerUIStandalonePreset\n      ],\n      plugins: [\n        SwaggerUIBundle.plugins.DownloadUrl\n      ],\n      layout: \"StandaloneLayout\",\n      \n    })\n    window.ui = ui\n  }\n  </script>\n</body>\n\n</html>\n\n"
+*************** response log end ***************
+
+[2020-06-17T23:25:41.487] [INFO] response - 
+*************** response log start ***************
+
+request method: GET
+
+request host: localhost:3000
+request originalUrl:  /swagger-json
+request client ip:  ::1
+request query:  {}
+response time: 2020-6-17 11:25:41 ├F10: PM┤
+response status: 200
+response body: {"info":{"title":"郝晨光的接口文档","description":"swagger doc","version":"1.0.0"},"paths":{"/user":{"get":{"summary":"获取用户信息","description":"获取用户信息","parameters":[{"name":"userId","type":"string","description":"userId","in":"query"},{"name":"userArr","type":"array","items":{"type":"string","description":"items"},"description":"userId","in":"query"}],"responses":{"200":{"description":"success"}},"tags":["User"],"security":[{"ApiKeyAuth":[]}]}},"/user/register":{"post":{"summary":"注册用户","description":"注册成功以后，会返回一个token，请在每次请求的过程中将token放置在header中，Authorization 或者 hcg-token 或者cookies中的hcg-token","parameters":[{"name":"data","description":"request body","schema":{"type":"object","properties":{"userName":{"type":"string","required":true,"example":"用户姓名"},"cookies":{"type":"boolean","description":"是否将token存储在cookies中","default":false}}},"in":"body"}],"responses":{"200":{"description":"success","properties":{"code":{"type":"string","example":"000","description":"server response code"},"msg":{"type":"string","example":"success","description":"server response message"},"data":{"type":"object","properties":{"userName":{"type":"string","description":"用户姓名"},"token":{"type":"string","description":"token"}}},"success":{"type":"boolean","example":true,"description":"server response is success"},"timeStamp":{"type":"number","description":"server response time"}}},"401":{"description":"UnauthorizedError","properties":null},"404":{"description":"Not Fund","properties":null}},"tags":["User"],"security":[{"ApiKeyAuth":[]}]}},"/user/verifyCode":{"post":{"summary":"邮箱验证码","description":"邮箱验证码","parameters":[{"name":"data","description":"request body","schema":{"type":"object","properties":{"email":{"type":"string","required":true,"description":"用于接收验证码的邮箱"}}},"in":"body"}],"responses":{"200":{"description":"success"}},"tags":["User"],"security":[{"ApiKeyAuth":[]}]}},"/user/login":{"post":{"summary":"登录用户","description":"登录用户","parameters":[{"name":"data","description":"request body","schema":{"type":"object","properties":{"200":{"description":"success","properties":{"code":{"type":"string","example":"000","description":"server response code"},"msg":{"type":"string","example":"success","description":"server response message"},"data":{"type":"object","properties":{"userName":{"type":"string","description":"用户姓名"},"token":{"type":"string","description":"token"}}},"success":{"type":"boolean","example":true,"description":"server response is success"},"timeStamp":{"type":"number","description":"server response time"}}},"401":{"description":"UnauthorizedError","properties":null},"404":{"description":"Not Fund","properties":null}}},"in":"body"}],"responses":{"200":{"description":"success"}},"tags":["User"],"security":[{"ApiKeyAuth":[]}]}}},"responses":{},"definitions":{},"tags":[],"swagger":"2.0","securityDefinitions":{"ApiKeyAuth":{"type":"apiKey","in":"header","name":"Authorization"}}}
+*************** response log end ***************
+

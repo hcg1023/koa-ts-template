@@ -1,7 +1,16 @@
-import * as KoaRouter from 'koa-router'
-import HomeController from '../controllers/HomeController'
-const router = new KoaRouter()
+import { SwaggerRouter } from 'koa-swagger-decorator'
 
-router.get('/', HomeController.hellWord)
+const swaggerRouterOpts = {
+  title: '郝晨光的接口文档',
+  description: 'swagger doc',
+  swaggerHtmlEndpoint: '/swagger',
+  swaggerJsonEndpoint: '/swagger-json',
+  version: '1.0.0',
+}
+const router = new SwaggerRouter(null, swaggerRouterOpts)
+
+router.swagger()
+
+router.mapDir(__dirname)
 
 export default router

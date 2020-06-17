@@ -1,16 +1,16 @@
 {
   "restartable": "rs",
-  "ignore": ["./node_modules/*", "./public/*", "./src/logs/*"],
+  "ignore": ["./node_modules/*", "./public/*", "./logs/*"],
   "verbose": true,
   "execMap":{
-    "":"node"
+    "": "node"
   },
   "ext": "js ts",
   "watch":[
-    "./src/**.ts"
+    "./src/*"
   ],
   "env":{
     "NODE_ENV": "development"
   },
-  "legacy-watch":false
+  "legacy-watch": false
 }
